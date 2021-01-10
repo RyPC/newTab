@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+body, html {
+	padding: 0px;
+	margin: 0px;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	background-image: url(background1.jpg);
+	background-size: cover;
+	color: white;
+	
+}
+
+a {
+	text-decoration: none;
+	color: blue;
+}
+
+div {
+	height: 50%;
+	width: 50%;
+	float: left;
+	align-content: center;
+	text-align: center;
+}
+
+#bellSchedule {
+	color: white;
+	text-decoration: none;
+	font-size: 35px;
+}
+
+#google {
+	display: block;
+	font-weight: 300;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 615px;
+	height: 23px;
+	font-size: 17px;
+	border: none;
+	box-shadow: 1px 1px 10px #AAA;
+	resize: none;
+}
+#googleImg {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 50%;
+	height: auto;
+}

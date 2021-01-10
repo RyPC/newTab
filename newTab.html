@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+	
+	<head>
+		<meta charset="UTF-8">
+		<title>Ryan's very own A55board!</title>
+		<link rel="stylesheet" type="text/css" href="theme.css">
+		<script type="text/javascript" src="script.js"></script>
+	</head>
+	
+	<body onLoad="start()">
+		
+		<div id="tl">
+			<p id="time" style="font-size: 65px;">time</p>
+			<p id="date" style="font-size: 30px;">date</p>
+			<p id="current"></p>
+		</div>
+		
+		<div id="tr">
+			<img src="google.png" id="googleImg">
+			<textarea autofocus placeholder="Search Google or type URL" rows="1" wrap="off" size="500" id="google" onKeyDown="search(event)"></textarea>
+			<br>
+			<a href="https://powerschool.pcschools.us">PowerSchool</a>
+			&emsp;
+			<a href="https://pcsd.instructure.com">Canvas</a>
+			&emsp;
+			<a href="https://mail.google.com">Gmail</a>
+			&emsp;
+			<a href="https://www.youtube.com">Youtube</a>
+			&emsp;
+			<a href="https://open.spotify.com">Spotify</a>
+		</div>
+		
+		<div id="bl">
+			<a id="bellSchedule" href="bellSchedule.pdf">Today's Schedule</a>
+		</div>
+		
+		<div id="br">
+		</div>
+		
+	</body>
+	
+</html>
