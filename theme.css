@@ -17,7 +17,7 @@ a {
 	color: blue;
 }
 
-div {
+.section {
 	height: 50%;
 	width: 50%;
 	float: left;
@@ -37,12 +37,14 @@ div {
 	padding: 10px;
 	margin-left: auto;
 	margin-right: auto;
-	width: 615px;
+	width: 550px;
 	height: 23px;
 	font-size: 17px;
 	border: none;
 	box-shadow: 1px 1px 10px #AAA;
 	resize: none;
+    border-radius: 1px;
+    overflow-x: hidden;
 }
 #googleImg {
 	padding-top: 15px;
@@ -50,3 +52,32 @@ div {
 	width: 50%;
 	height: auto;
 }
+
+table {
+    width: 100%;
+    height: 90%;
+    table-layout: fixed;
+}
+td {
+    height: 50%;
+    padding: 5px;
+}
+tr {
+    height: 50%;
+}
+.card {
+    color: white;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    border: solid 1px;
+    border-radius: 5% / 8%;
+}
+.white {
+    border-color: white;
+}
+.red {
+    border-color: red;
+}
+
+

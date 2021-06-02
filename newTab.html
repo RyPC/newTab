@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 	
 	<head>
@@ -10,32 +10,95 @@
 	
 	<body onLoad="start()">
 		
-		<div id="tl">
+		<div id="tl" class="section">
 			<p id="time" style="font-size: 65px;">time</p>
 			<p id="date" style="font-size: 30px;">date</p>
 			<p id="current"></p>
 		</div>
 		
-		<div id="tr">
-			<img src="google.png" id="googleImg">
-			<textarea autofocus placeholder="Search Google or type URL" rows="1" wrap="off" size="500" id="google" onKeyDown="search(event)"></textarea>
+		<div id="tr" class="section">
+            <a href="https://www.google.com">
+			    <img src="google.png" id="googleImg" alt="">
+            </a>
+			<textarea class="card" autofocus placeholder="Search Google or type URL" rows="1" wrap="off" size="500" id="google" onKeyDown="search(event)"></textarea>
 			<br>
-			<a href="https://powerschool.pcschools.us">PowerSchool</a>
+			<a class="card" href="https://powerschool.pcschools.us">PowerSchool</a>
 			&emsp;
-			<a href="https://pcsd.instructure.com">Canvas</a>
+			<a class="card" href="https://pcsd.instructure.com">Canvas</a>
 			&emsp;
-			<a href="https://mail.google.com">Gmail</a>
+			<a class="card" href="https://mail.google.com">Gmail</a>
 			&emsp;
-			<a href="https://www.youtube.com">Youtube</a>
+			<a class="card" href="https://www.youtube.com">Youtube</a>
 			&emsp;
-			<a href="https://open.spotify.com">Spotify</a>
+			<a class="card" href="https://open.spotify.com">Spotify</a>
 		</div>
 		
-		<div id="bl">
+		<div id="bl" class="section">
 			<a id="bellSchedule" href="bellSchedule.pdf">Today's Schedule</a>
 		</div>
 		
-		<div id="br">
+		<div id="br" class="section">
+            <table>
+                <tr>
+                    <td>
+                        <div class="card red">
+                            <a href="https://pcsd.instructure.com/courses/1354478">
+                                <div class="card red" style="height: 49%; margin: 0; float: top">AP PHYSICS C</div>
+                            </a>
+                            <a href="https://webassign.net">
+                                <div class="card red" style="height: 48%; margin: 0; float: top">WEBASSIGN</div>
+                            </a>
+                        </div>
+                    </td>
+                    <td>
+                        <a href="https://pcsd.instructure.com/courses/1354457">
+                            <div class="card red">US HISTORY</div>
+                        </a>
+                    </td>
+                    <td>
+                        <div class="card red">
+                            <a href="file:///Users/rsu22/Desktop/Websites/chess/chess.html">
+                                <div class="card red" style="width: 48%; margin: 0; float: left">CHESS</div>
+                            </a>
+                            <a href="file:///Users/rsu22/Desktop/Websites/chessTimer/timer.html">
+                                <div class="card red" style="width: 49%; margin: 0; float: left">TIMER</div>
+                            </a>
+                        </div>
+                    </td>
+                    <td>
+                        <a href="https://pcsd.instructure.com/courses/1354525">
+                            <div class="card red">AP CALCULUS BC</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://pcsd.instructure.com/courses/1354499">
+                            <div class="card white">AP BIOLOGY</div>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://pcsd.instructure.com/courses/1354467">
+                            <div class="card white">AP LANGUAGE &#38; COMPOSITION</div>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://pcsd.instructure.com/courses/1354397">
+                            <div class="card white">MANDARIN CHINESE 4</div>
+                        </a>
+                    </td>
+                    <td>
+                        <div class="card white">
+                            <a href="https://pcsd.instructure.com/courses/1354237">
+                                <div class="card white" style="height: 49%; margin: 0; float: top">INTERNSHIPS</div>
+                            </a>
+                            <a href="https://trailhead.salesforce.com">
+                                <div class="card white" style="height: 48%; margin: 0; float: top">TRAILHEAD</div>
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
 		</div>
 		
 	</body>

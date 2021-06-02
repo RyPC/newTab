@@ -132,7 +132,7 @@ function start() {
 	
 	document.getElementById("bellSchedule").innerHTML = (d.getDay() === 1) ? "1st Period&emsp;7:35 - 8:56<br>2nd Period&emsp;9:01 - 10:22<br>3rd Period&emsp;10:27 - 11:48<br>C Lunch&emsp;11:48 - 12:18<br>4th Period&emsp;12:23 - 1:45" : 
 	(d.getDay() === 5) ? "1st Period&emsp;7:35 - 8:30<br>2nd Period&emsp;8:35 - 9:30<br>3rd Period&emsp;9:35 - 10:30<br>4th Period&emsp;10:35 - 11:30<br>Lunch" :
-	"1st Period&emsp;7:35 - 9:03<br>2nd Period&emsp;9:09 - 10:48<br>3rd Period&emsp;10:54 - 12:22<br>C Lunch&emsp;12:22 - 12:51<br>4th Period&emsp;12:56 - 2:25";
+	"1st Period&emsp;7:35 - 9:03<br>2nd Period&emsp;9:09 - 10:48<br>3rd Period&emsp;10:54 - 12:22<br>C Lunch&emsp;12:22 - 12:51<br>4th Period&emsp;12:57 - 2:25";
 	
 	var rand = Math.floor(Math.random() * 3);
 	document.body.style.backgroundImage = (rand === 0) ? "url('background0.jpg')" : (rand === 1) ? "url('background1.jpg')" : "url('background2.jpg')";
